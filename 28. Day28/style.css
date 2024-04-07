@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+.whole-container {
+  background-color: #073763;
+}
+
+.whole {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #073763;
+  height: 80px;
+  box-shadow: 0px -5px 50px #141414;
+}
+
+.left img {
+  padding: 20px;
+}
+
+.middle ul {
+  list-style-type: none;
+  display: flex;
+  margin: 20px;
+}
+
+.middle li a {
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.right {
+  list-style-type: none;
+  display: flex;
+  padding: 29px;
+}
+
+.right button {
+  color: #fff;
+  margin: 18px;
+  width: 90px;
+  height: 35px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.right-1 {
+  border: 1.8px solid white;
+  background-color: #073763;
+}
+
+.right-2 {
+  border: 1.8px solid white;
+  background-color: #15803d;
+}
+.another-div {
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  background-color: #fff;
+  display: flex;
+}
+
+.large-div {
+  width: 230px;
+  height: 36px;
+  background-color: #073763;
+  border-radius: 40px;
+  margin-bottom: 40px;
+}
+
+.large img {
+  width: 20px;
+}
+
+.large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 0px 6px 6px;
+}
+
+.large-p h3 {
+  width: 180px;
+  padding: 9px 0px 0px 30px;
+  color: #fff;
+  font-size: large;
+  font-weight: 500;
+}
+.sign-div {
+  padding: 40px 0px 40px 0px;
+}
+
+.email-div {
+  margin: 5px;
+}
+
+.email-div input {
+  width: 450px;
+  height: 46px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+.password-div {
+  margin: 5px;
+}
+
+.password-div input {
+  width: 450px;
+  height: 46px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+.forgot {
+  padding: 0px 0px180px;
+  color: #073763;
+}
+
+.sign-div button {
+  width: 450px;
+  height: 46px;
+  background-color: #073763;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  color: #fff;
+}
+
+.sign-div p {
+  text-align: center;
+  padding-top: 30px;
+}
+.form-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.parag {
+  width: 435px;
+  font-size: small;
+  padding-bottom: 15px;
+}
+span {
+  display: flex;
+  gap: 2px;
+}
+.already {
+  display: flex;
+  padding-bottom: 30px;
+}
+.foott {
+  background-color: #073763;
+  padding: 50px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.first-div {
+  padding: 10px;
+}
+
+.first-div img {
+  padding-bottom: 10px;
+}
+
+.first-div p {
+  height: 90px;
+  width: 405px;
+  color: #fff;
+
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.head-second-div h3 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.second-div:hover {
+  cursor: pointer;
+  color: #141414;
+}
+
+.about li {
+  padding: 5px;
+  line-height: 2;
+}
+
+.quick li {
+  padding: 5px;
+  line-height: 2;
+}
+
+.dunoacademy li {
+  padding: 5px;
+}
+
+.links-second-div h3 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.payment-forth-div h3 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.dunoacademy {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dunoacademy img {
+  height: 3rem;
+  margin: 0px 15px;
+  border-radius: 5px;
+}

@@ -1,0 +1,20 @@
+.first {
+  color: green;
+  background-color: blue;
+  font-family: "Times New Roman", Times, serif;
+}
+.second {
+  color: blue;
+  background-color: blueviolet;
+  font-family: "Times New Roman", Times, serif;
+}
+.first-p {
+  color: aqua;
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+#third {
+  color: black;
+  background-color: brown;
+  font-family: "Times New Roman", Times, serif;
+}

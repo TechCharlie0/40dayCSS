@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #000;
+}
+.whole {
+  background-image: url(NP-en-20231009-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+  height: 120vh;
+  background-position: center;
+  background-size: cover;
+  /* opacity: 0.6; */
+  /* display: flex;
+  justify-content: center; */
+}
+.whole img {
+  height: 150px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.inputdetails {
+  background-color: #000;
+  opacity: 0.9;
+  padding: 20px;
+  margin: 8px;
+  width: 400px;
+}
+
+.top {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  color: white;
+  padding: 15px;
+}
+.top h1:hover {
+  background-color: rgb(122, 12, 12);
+  cursor: pointer;
+}
+
+.inputdetails input {
+  display: block;
+  padding: 20px;
+  margin-top: 17px;
+  width: 350px;
+  border-radius: 2px;
+  background-color: rgb(46, 42, 42);
+  border: none;
+  border-bottom: 2px solid rgba(224, 194, 22, 0.911);
+}
+.bottom button {
+  background-color: rgb(247, 7, 7);
+  border: none;
+  width: 380px;
+  border-radius: 3px;
+  height: 45px;
+  margin-top: 72px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-weight: 30px;
+  font-size: 15px;
+}
+.bottom button:hover {
+  background-color: rgb(99, 7, 7);
+  cursor: pointer;
+}
+
+.form-help {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  margin: 12px;
+}
+
+.remember-me {
+  display: flex;
+}
+
+.remember-me input {
+  margin-right: -360px;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+}
+.info {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  margin-top: 120px;
+}
+
+.info p {
+  color: #1d1d1c;
+  /* font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize; */
+}
+.info a {
+  text-decoration: none;
+  color: white;
+  /* font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize; */
+}
+.info-2 {
+  width: 400px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+}
+.info-2 p {
+  color: white;
+}

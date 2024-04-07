@@ -1,0 +1,21 @@
+* {
+  padding: 0px;
+  margin: 10px;
+}
+.gallery {
+  width: 30%;
+  height: 200px;
+  display: flex;
+}
+.gallery img {
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid wheat;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+.gallery img:hover {
+  width: 100%;
+}

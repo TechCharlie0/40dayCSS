@@ -1,0 +1,12 @@
+.logo {
+  border: 2px solid blue;
+  display: inline;
+}
+.box {
+  border: 2px solid rgb(60, 255, 0);
+  padding: 34px;
+  box-shadow: 5px 5px rgb(59, 58, 55);
+  text-shadow: 5px 5px 5px black;
+  outline-offset: 20px;
+  border-radius: 5px;
+}

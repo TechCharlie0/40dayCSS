@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <div>
+        <h1>Form to apply for sigma web sevelopment course</h1>
+
+        <label for="Username"> Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          autofocus
+        />
+
+        <br />
+        <br />
+
+        <label for="Password"> Password:</label>
+        <input
+          type="text"
+          id="Password"
+          placeholder="Enter your password"
+          autofocus
+        />
+      </div>
+      <br />
+
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="male">Female</label>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+        <label for="subscribe">Suscribe to news letter</label>
+      </div>
+      <div>
+        <p>AVAILABLE COURSES</p>
+        <p>
+          <select name="subject">
+            <option value="subjct">SUBJECT</option>
+            <option value="css">CSS</option>
+            <option value="dbms">DBMS</option>
+            <option value="dsa">DSA</option>
+            <option value="html">HTML</option>
+          </select>
+        </p>
+      </div>
+
+      <div>
+        <label for="comment">Enter your comment </label>
+        <br />
+        <textarea name="comment" rows="4" cols="50">
+Enter your comment here
+        </textarea>
+      </div>
+    </div>
+  </body>
+</html>

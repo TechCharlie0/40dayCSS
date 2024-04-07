@@ -1,0 +1,394 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navclass {
+  display: flex;
+  gap: 30%;
+  background-color: #023e8a;
+
+  padding: 0px 0px 8px 0px;
+}
+
+.first-navclass {
+  margin: 20px 0px 0px 70px;
+}
+
+.second-navclass {
+  display: flex;
+  margin: 30px 0px 0px 20px;
+}
+
+.second-navclass li button {
+  border: none;
+}
+
+.second-navclass ul {
+  display: flex;
+  gap: 80px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.second-navclass li a {
+  color: #fff;
+}
+
+main {
+  background-color: #ebebeb;
+}
+
+.btn button {
+  width: 70px;
+  height: 30px;
+  border-radius: 4px;
+  color: #023e8a;
+  font-size: large;
+  font-weight: bold;
+}
+
+.free-logo {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px 350px 0px 350px;
+  color: #023e8a;
+}
+
+.get-free-logo {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.input-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.input-container input {
+  width: 453px;
+  height: 36px;
+  padding: 10px;
+  border: none;
+}
+
+.make-logo button {
+  width: 210px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  background-color: #023e8a;
+  font-size: 15px;
+}
+
+.image-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.image-logo img {
+  width: 800px;
+  padding: 80px;
+}
+
+.trusted-business-owner {
+  margin: 0px 400px 0px 400px;
+  text-align: center;
+  color: #023e8a;
+}
+
+.template {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.template {
+  margin: 0px 400px 0px 400px;
+}
+
+.text {
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+  border-bottom: 3px solid rgb(80, 78, 78);
+}
+
+.brand-logo {
+  margin: 0px 400px 0px 400px;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: bold;
+  color: #023e8a;
+}
+
+.two-div {
+  display: flex;
+  align-items: center;
+  padding: 60px 100px 40px 100px;
+}
+
+.left-image img {
+  width: 500px;
+}
+
+.right-paragraph {
+  padding: 0px 0px 0px 20px;
+}
+
+.our-tools {
+  padding: 0px 0px 20px 0px;
+  color: #023e8a;
+}
+
+.logo-pro {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-pro button {
+  width: 280px;
+  height: 40px;
+  background-color: #023e8a;
+  border: none;
+  border-radius: 5px;
+}
+
+.million {
+  padding: 0px 0px 20px 0px;
+}
+
+.another-two-div {
+  display: flex;
+  align-items: center;
+  padding: 60px 100px 40px 100px;
+}
+
+.left-paragraph {
+  padding: 0px 20px 0px 0px;
+}
+
+.anothers-two-div {
+  display: flex;
+  align-items: center;
+  padding: 60px 100px 40px 100px;
+  border-bottom: 3px solid rgb(80, 78, 78);
+}
+
+.ready-to-set {
+  align-items: center;
+}
+
+.ready {
+  text-align: center;
+  margin: 0px 450px 0px 450px;
+  padding-top: 20px;
+  color: #023e8a;
+}
+
+.stich-the-brand {
+  margin: 90px 0px 0px 0px;
+}
+
+.stich {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0px 80px 0px;
+  background-color: #ebebeb;
+  border-top: 3px solid rgb(80, 78, 78);
+}
+
+.stich-building {
+  width: 400px;
+}
+
+.stich-building button {
+  width: 300px;
+  height: 46px;
+  border-radius: 5px;
+  border: none;
+  background-color: #023e8a;
+}
+
+.stich-img img {
+  width: 600px;
+}
+
+.brand-building {
+  padding: 0px 0px 20px 0px;
+  color: #023e8a;
+}
+
+.custom {
+  padding: 0px 0px 20px 0px;
+}
+
+.demo-5 {
+  border-top: 3px solid rgb(80, 78, 78);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7.5rem;
+  color: #fff;
+}
+
+.first-5 {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  padding: 0px 0px 20px 0px;
+  color: #023e8a;
+}
+
+.second-5 button {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 4px;
+  margin: 2px;
+  height: 84px;
+  width: 1116px;
+  background-color: #023e8a;
+  color: #fff;
+  margin: 8px;
+  border: none;
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.second-5 button:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+.unlock {
+  text-align: center;
+
+  padding: 40px 0px 40px 0px;
+  margin: 0px 450px 0px 450px;
+  font-weight: bold;
+  color: #023e8a;
+}
+
+.your-brand {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.your-brand img {
+  width: 350px;
+  border-radius: 5px;
+}
+
+.building {
+  width: 400px;
+}
+
+.building p {
+  font-size: small;
+  padding: 0px 0px 20px 0px;
+}
+
+.building h4 {
+  padding: 0px 0px 30px 0px;
+  font-size: large;
+}
+
+.use-linkdn {
+  width: 400px;
+}
+
+.use-linkdn p {
+  font-size: small;
+  padding: 0px 0px 20px 0px;
+}
+
+.use-linkdn h4 {
+  padding: 0px 0px 30px 0px;
+  font-size: large;
+}
+
+.professional-skill {
+  width: 400px;
+}
+
+.professional-skill p {
+  font-size: small;
+  padding: 0px 0px 20px 0px;
+}
+
+.professional-skill h4 {
+  padding: 0px 0px 30px 0px;
+  font-size: large;
+}
+
+.foot {
+  background-color: #ebebeb;
+  border-top: 3px solid rgb(80, 78, 78);
+}
+
+.box-right img {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.box-right a {
+  text-decoration: none;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-1 {
+  margin: 60px 0px 0px 40px;
+}
+
+.box-2 {
+  margin: 60px 0px 0px 0px;
+}
+
+.box-2 ul li {
+  padding: 10px;
+}
+
+.box-3 {
+  margin: 60px 150px 0px 0px;
+}
+
+.box-3 ul li {
+  padding: 10px;
+}
+
+.last-foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 0px 20px;
+  background-color: #ebebeb;
+  color: #023e8a;
+}
+
+.faq {
+  border-bottom: 3px solid rgb(80, 78, 78);
+}

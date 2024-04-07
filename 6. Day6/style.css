@@ -1,0 +1,38 @@
+* {
+  padding: 4px;
+}
+nav {
+  background-color: rgb(132, 96, 218);
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 10px;
+}
+.banner {
+  display: inline-block;
+}
+.top li {
+  display: inline-block;
+  font-weight: 700;
+}
+.navbar {
+  position: absolute;
+  right: 34px;
+  display: inline-block;
+  float: right;
+}
+.right {
+  display: inline-block;
+}
+.right li {
+  display: inline-block;
+}
+.right li a {
+  color: black;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.right li a:hover,
+.right li a.active {
+  text-decoration: underline;
+  color: gray;
+}

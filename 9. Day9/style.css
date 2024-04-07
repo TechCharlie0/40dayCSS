@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.whole {
+    
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    align-items: center;
+}
+
+.left {
+    color: blue;
+    font-family: sans-serif;
+}
+
+.left h4 {
+    color: black;
+    margin: 5px;
+}
+
+.right {
+    height: 40vh;
+    text-align: center;
+    padding: 76px;
+    width: 87vh;
+    display: inline-block;
+}
+
+.inputdetail input {
+    display: block;
+    padding: 15px;
+    margin-top: 10px;
+    width: 100%;
+    border: rgb(228, 221, 221) 1px solid;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.log {
+    width: 105%;
+    padding: 18px;
+    margin-top: 17px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.Forgot {
+    margin: 5px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+
+.button {
+    background-color: rgba(11, 221, 11, 0.925);
+
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}

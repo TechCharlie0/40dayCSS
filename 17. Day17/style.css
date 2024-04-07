@@ -1,0 +1,28 @@
+.logo img {
+  background-color: blue;
+  width: 190px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "segoe UI";
+}
+
+.right ul {
+  display: flex;
+  gap: 35px;
+}
+.right ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.right ul li span {
+  padding: 0 5px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 5, "opsz" 24;
+}

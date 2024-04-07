@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style-type: none;
+}
+
+.nav-div {
+  padding: 10px 0px 0px 0px;
+  background-color: aqua;
+  height: 40px;
+}
+
+.nav-div ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  font-size: larger;
+}
+.image-container {
+  background-image: url(Dog-And-Spring-1366x768.jpg);
+  height: 99vh;
+  background-position: center;
+  background-size: cover;
+}

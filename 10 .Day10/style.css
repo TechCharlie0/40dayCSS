@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&family=Ubuntu+Mono&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono", monospace;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+whole {
+    background-color: rgba(206, 206, 203, -0.45);
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.left h1 {
+    color: rgb(36, 36, 235);
+    font-size: 100px;
+}
+
+.left h3 {
+    line-height: 1.5;
+}
+
+.right {
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 30px #e7d9d990;
+    border-radius: 10px;
+}
+
+form {
+    padding: 15px;
+}
+
+.inputdetail input {
+    display: block;
+    padding: 15px;
+    margin-top: 10px;
+    width: 100%;
+    border: rgb(228, 221, 221) 1px solid;
+    border-radius: 5px;
+}
+
+.log{
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.log:hover {
+    cursor: pointer;
+    background-color: rgba(31, 64, 212, 0.835);
+}
+
+.forgot a,
+.forgot {
+    color: rgb(41, 41, 235);
+    text-decoration: none;
+    text-align: center;
+    margin: 15px;
+}
+
+.newpassword {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.create {
+    background-color: rgba(24, 240, 24, 0.925);
+
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.create:hover {
+    background-color: rgb(40, 176, 40);
+    cursor: pointer;
+}
+
+@media (max-width: 428px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .left h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .right{
+        width: 90%;
+    }
+}
+
+@media (min-width: 429px) and (max-width: 1240px) {
+    .left h1 {
+        font-size: 50px;
+        
+    }
+
+    .right {
+        width: 50%;
+    }
+}

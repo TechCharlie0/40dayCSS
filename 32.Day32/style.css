@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+li {
+  list-style-type: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+.nav-first {
+  padding: 27px 0px 0px 80px;
+}
+.nav-first ul {
+  display: flex;
+  gap: 80px;
+}
+.nav-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  padding: 3px 0px 20px 0px;
+}
+.nav-second {
+  margin: 25px 0px 0px 0px;
+}
+.nav-second button {
+  width: 80px;
+  height: 35px;
+  border-radius: 7px;
+  font-size: medium;
+  font-weight: bold;
+}
+.brain {
+  margin: 40px 0px 0px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.brain-white p {
+  width: 650px;
+  padding: 10px 0px 10px 0px;
+  font-weight: bold;
+}
+.click button {
+  height: 40px;
+  width: 180px;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+.click button:hover {
+  background-color: rgb(179, 188, 197);
+}
+.laptop img {
+  height: 300px;
+  border-radius: 20px;
+}
+.between-button {
+  text-align: center;
+  padding: 80px 0px 0px 0px;
+  margin: 0px 0px 30px 0px;
+}
+.between-button button {
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: large;
+}
+.between-button button:hover {
+  background-color: rgb(164, 173, 180);
+  cursor: pointer;
+}
+hr {
+  border: 1.5px solid rgb(104, 100, 100);
+}
